@@ -1,0 +1,17 @@
+export_paths:
+  - content
+  - config/filesystems.php
+  - config/statamic/assets.php
+  - resources/blueprints
+  - resources/css
+  - resources/js
+  - resources/views
+  - public/assets
+  - public/css
+  - package.json
+  - tailwind.config.js
+  - webpack.mix.js
+dependencies:
+  giantpeach/statamic-custom-styles: dev-main
+  jezzdk/statamic-google-maps: ^1.0
+  optimoapps/statamic-bard-text-align: ^1.0

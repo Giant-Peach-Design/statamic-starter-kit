@@ -1,0 +1,10 @@
+title: Services
+template: services/show
+layout: layout
+revisions: false
+route: 'service/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
