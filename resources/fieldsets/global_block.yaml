@@ -1,0 +1,16 @@
+title: 'Global Block'
+fields:
+  -
+    handle: block
+    field:
+      max_items: 1
+      mode: default
+      create: true
+      collections:
+        - global_blocks
+      display: 'Block to Show'
+      type: entries
+      icon: entries
+      instructions: 'This block will show a site-wide block, as defined under Collections > Global Blocks. You can use this for blocks you want to repeat in lots of places.'
+      listable: hidden
+      instructions_position: above

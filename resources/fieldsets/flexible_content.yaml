@@ -45,6 +45,11 @@ fields:
           fields:
             -
               import: form
+        global_block:
+          display: 'Global Block'
+          fields:
+            -
+              import: global_block
       display: Blocks
       type: replicator
       icon: replicator
