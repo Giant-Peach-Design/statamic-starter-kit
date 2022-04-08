@@ -1,0 +1,17 @@
+title: Testimonials
+fields:
+  -
+    handle: testimonials
+    field:
+      collapse: false
+      sets:
+        testimonial:
+          display: Testimonial
+          fields:
+            -
+              import: testimonial
+      display: Testimonials
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

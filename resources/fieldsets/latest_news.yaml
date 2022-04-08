@@ -1,0 +1,26 @@
+title: 'Latest News'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: entries
+    field:
+      max_items: 3
+      mode: default
+      create: true
+      collections:
+        - posts
+      display: Entries
+      type: entries
+      icon: entries
+      instructions: 'Select up to 3 Blog Posts to display.'
+      listable: hidden
+      instructions_position: above

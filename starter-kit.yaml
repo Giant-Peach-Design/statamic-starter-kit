@@ -1,8 +1,10 @@
 export_paths:
   - content
   - config/filesystems.php
+  - config/statamic/editions.php
   - config/statamic/assets.php
   - resources/blueprints
+  - resources/fieldsets
   - resources/css
   - resources/js
   - resources/views
@@ -12,6 +14,10 @@ export_paths:
   - tailwind.config.js
   - webpack.mix.js
 dependencies:
+  aerni/font-awesome: ^1.0
+  anakadote/statamic-recaptcha: ^1.0
   giantpeach/statamic-custom-styles: dev-main
   jezzdk/statamic-google-maps: ^1.0
   optimoapps/statamic-bard-text-align: ^1.0
+  parfaitementweb/statamic-fast-seo: ^1.0
+  pecotamic/sitemap: ^1.2

@@ -1,9 +1,9 @@
 {
-  "name": "giantpeach/lead-gen",
-  "extra": {
-    "statamic": {
-      "name": "Giant Peach",
-      "description": "Giant Peach starter kit"
+    "name": "giantpeach/lead-gen",
+    "extra": {
+        "statamic": {
+            "name": "Giant Peach",
+            "description": "Giant Peach starter kit"
+        }
     }
-  }
 }

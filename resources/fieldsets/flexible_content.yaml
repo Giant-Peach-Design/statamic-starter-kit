@@ -1,0 +1,52 @@
+title: 'Flexible Content'
+fields:
+  -
+    handle: blocks
+    field:
+      collapse: false
+      sets:
+        banner:
+          display: Banner
+          fields:
+            -
+              import: banner
+        hero:
+          display: Hero
+          fields:
+            -
+              import: hero
+        feature_block:
+          display: 'Feature Block'
+          fields:
+            -
+              import: feature_block
+        3_column_feature:
+          display: '3 Column Feature'
+          fields:
+            -
+              import: 3_column_feature
+        content:
+          display: Content
+          fields:
+            -
+              import: content
+        latest_news:
+          display: 'Latest News'
+          fields:
+            -
+              import: latest_news
+        testimonials:
+          display: Testimonials
+          fields:
+            -
+              import: testimonials
+        form:
+          display: Form
+          fields:
+            -
+              import: form
+      display: Blocks
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
